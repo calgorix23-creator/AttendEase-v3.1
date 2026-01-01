@@ -1,11 +1,11 @@
 // tailwind.config.js
 module.exports = {
  content: [
- './dist/**/*.html',
- './src/**/*.html',
- './*.html' // Uncomment if you use a src folder
+ './dist/index.html', // Uncomment if you use a src folder
  ],
- theme: { extend: {} },
+ theme: { 
+ extend: {},
+ },
  plugins: [],
 }
 
