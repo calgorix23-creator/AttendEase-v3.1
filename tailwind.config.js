@@ -1,7 +1,13 @@
 // tailwind.config.js
 module.exports = {
  content: [
- './dist/index.html', // Uncomment if you use a src folder
+ './dist/**/*.html',
+ './index.html',
+ './src/**/*.{ts,tsx}',
+ './components/**/*.{ts,tsx}',
+ './services/**/*.{ts,tsx}',
+ './*.tsx',
+ './*.ts',
  ],
  theme: { 
  extend: {},
