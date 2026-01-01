@@ -13,9 +13,26 @@
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "- **Credit System**: 1 credit deduction for booking/marking. 1 credit refund for cancellation (within rules).\r - **30-Minute Rule**: Cancellations locked <30m from start. Sessions hidden from Trainee booking >30m after start.\r - **Strict Credit Check**: 0 balance prohibits booking/manual marking. Inline error: \"Insufficient credits. Trainee must top up.\"\r - **Data Integrity**: Duplicate sessions (Name, Date, Time) are blocked using whitespace-insensitive, case-insensitive checks.\r - **Email Security**: Changing an email triggers an inline warning. Warning disappears if reverted.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calgorix23-creator/AttendEase-v3.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calgorix23-creator/AttendEase-v3.1/issues"
+  },
+  "homepage": "https://github.com/calgorix23-creator/AttendEase-v3.1#readme"
 }
