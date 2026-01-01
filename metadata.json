@@ -1,0 +1,8 @@
+{
+  "name": "AttendEase v3.1",
+  "description": "A high-performance booking and attendance management system featuring strict credit controls, role-based access, and mobile-first design.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
